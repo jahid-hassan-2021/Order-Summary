@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,500;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color:#E0E8FF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 450px;
+    height: 90vh;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.img img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.textArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+.textArea h2{
+    color: #2A3A5D;
+    font-weight: 800;
+}
+.textArea .mainText{
+    color: #8c8fa2;
+    font-weight: 700;
+    margin: 30px auto;
+    text-align: center;
+}
+.textArea h2{
+    color: #2A3A5D;
+    font-weight: 700;
+}
+
+.anualPlan{
+    background-color: #F0F0F0;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.anualPlanText{
+    margin-left: 20px;
+    width: 70%;
+}
+.anualPlanText p{
+    color: #8c8fa2;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-size: 16px; 
+}
+.anualPlan a{
+    color: blue;
+    font-weight: 700;
+}
+
+.payment{
+    background-color: #382AE1;
+    color: #fff;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px ;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+
+.order{
+    background-color: #f9f9fa;
+    color: #8c8fa2;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px ;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
